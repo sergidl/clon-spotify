@@ -40,7 +40,7 @@ Iteraciones:
 
 ### Iteración 2: Imagen grande con texto
 
-- Revisa [esta guía](https://css-tricks.com/centering-css-complete-guide/) para centrar elementos.
+- Revisa [esta guía](https://css-tricks.com/centering-css-complete-guide/) para centrar elementos. utiliza `flex`.
 
 ### Iteración 3: Sección "What is on Spotify"
 
