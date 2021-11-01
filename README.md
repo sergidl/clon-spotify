@@ -19,8 +19,6 @@ $ git add .
 $ git commit -m "done"
 $ git push origin master
 ```
-Envía la gh-page de tú repositorio vía slack(canal #ejercicios)
-
 ## Instrucciones
 
 En la carpeta `images` se encuentran todas las imágenes necesarias.
@@ -38,7 +36,7 @@ Iteraciones:
 ### Iteración 1: Navbar
 
 - El navbar se posiciona en `position: fixed`.
-- Alinea el logo a la izquierda y el `ul` con los links a la derecha, utiliza `float` or `flex`.
+- Alinea el logo a la izquierda y el `ul` con los links a la derecha, utiliza `flex`.
 
 ### Iteración 2: Imagen grande con texto
 
