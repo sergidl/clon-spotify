@@ -3,11 +3,7 @@
 
 En este ejercicio vamos a construir una versión simplificada de la _landing page_ de Spotify
 
-
-
 <br>
-
-Se proporcionan todas las imágenes necesarias, incluido un [documento con la copia completa del sitio web](./spotify-prototype.pdf)** como referencia.
 
 ## Requisitos
 
