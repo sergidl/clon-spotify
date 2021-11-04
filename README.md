@@ -40,13 +40,13 @@ Iteraciones:
 
 ### Iteración 2: Imagen grande con texto
 
-- Revisa [esta guía](https://css-tricks.com/centering-css-complete-guide/) para centrar elementos. utiliza `flex`.
+- Revisa [esta guía](https://css-tricks.com/centering-css-complete-guide/) para centrar elementos.
 
 ### Iteración 3: Sección "What is on Spotify"
 
-- Observa cómo cada una de las cajas ocupa un 1/3 de su contenedor.
+- Observa cómo cada una de las cajas ocupa un 1/3 de su contenedor.(Intenta usar `flex`).
 
 ### Iteración 4: Sección verde
 
 - Existen 2 secciones principales, un elemento que contiene el texto y otro con la imagen del reproductor de Spotify a la derecha.
-- Posiciona el logo de Spotify con valor absoluto con respecto a su contenedor.
+- Posiciona el logo de Spotify con valor absoluto con respecto a su contenedor. (Intenta usar `flex`).
