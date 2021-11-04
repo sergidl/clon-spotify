@@ -19,6 +19,15 @@ $ git add .
 $ git commit -m "done"
 $ git push origin master
 ```
+## Enviament
+
+Per enviar l'exercici feu servir el classroom:
+
+1.- Heu de publicar la vostar WEB
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
+2.- Enviar el link de la vostra web publicada.
+
 ## Instrucciones
 
 En la carpeta `images` se encuentran todas las imágenes necesarias.
