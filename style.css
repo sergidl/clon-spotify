@@ -22,7 +22,7 @@ White: #FFF
     font-family: 'Circular';
     font: #1A1A1A;
 }
-nav{
+header{
     position: fixed;
     width: 100%;
     background-color: blue;
@@ -30,13 +30,11 @@ nav{
 }
 nav *{
     background-color: red;
-    display: inline-block;
     align-items: center;
+    display: inline-flex;
 
 }
-nav ul{
-    display: inline;
-}
+
 nav>div>img{
     height: 5vmin;
     width: auto;
