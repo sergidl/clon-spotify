@@ -160,10 +160,13 @@ section:nth-child(3){
     background-repeat: no-repeat;
     background-position: center;
     background-size: 15vmin;
+    position: absolute;
     background-color: #00B172;
     color: #FFF;
     margin: 2vmin;
-    padding-bottom: 7vmin;
+    width: 96vw;
+    height: 70vmin;
+    display: flex;
 }
 
 
@@ -184,9 +187,8 @@ section:nth-child(3)>section:nth-child(1)>div>h4{
 }
 
 .grande{
-    position: relative;
-    float: right;
+    position: absolute;
     height: 50vmin;
-    margin-top: -40vmin;
-    margin-right: -90vw;
+    padding-left: 48vw;
+    padding-top: 10vmin;
 }
