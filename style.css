@@ -8,7 +8,7 @@ White: #FFF
 */
 @font-face {
     font-family: 'Circular';
-    src: url("fonts\\Circular\\CircularStd-Medium.otf") format("opentype");
+    src: url("fonts\\Circular\\CircularStd-Book.otf") format("opentype");
 }
 
 @font-face {
@@ -25,17 +25,168 @@ White: #FFF
 header{
     position: fixed;
     width: 100%;
-    background-color: blue;
+    background-color: #FFF;
 
 }
-nav *{
-    background-color: red;
+main{
+    padding-top: 4vmin;
+}
+nav{
     align-items: center;
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 3vmin;
+}
+ul{
+    padding-left: 68vw;
+    display: flex;
+    
+}
+li{
+    display: flex;
+    padding-left: 1vw;
+    
+    
+}
+li>*{
+    text-decoration: none;
+    color: #1A1A1A;
+    font-weight: 100;
 
 }
 
 nav>div>img{
-    height: 5vmin;
-    width: auto;
+    height: 7vmin;
+    width: 21vmin;
+
+}
+main>section:nth-child(1){
+    color: #FFF;
+    background-image:url(images/landing.jpg);
+    margin-left: -1vmin;
+    background-size: 100% 100%;;
+    background-repeat: no-repeat;
+    height: 95vmin;
+    text-align: center;
+    
+}
+
+section:nth-child(1)>h1{
+    font-size: 5vmin;
+    padding-top: 25vmin;
+}
+
+section:nth-child(1)>h2{
+    font-size:2vmin;
+    font-weight: 100;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+section:nth-child(2){
+    display: flex;
+    text-align: center;
+    margin-top: 1vmin;
+
+    margin-bottom: 3vmin;
+}
+section:nth-child(2)>h2{
+    text-decoration: #00B172 underline;
+    float: right;
+    position: absolute;
+    margin-left: 43vw;
+
+
+    
+}
+
+section:nth-child(2)>article{
+    margin-top: 13vmin;
+    width: 33%;
+
+    
+}
+
+section:nth-child(2)>article>h3{
+    color: #00B172;
+
+    
+}
+
+section:nth-child(2)>article>h4{
+    color: #1A1A1A;
+    font-weight: 100;
+    width: 10vw;
+    padding-left: 11vw;
+    
+}
+
+section:nth-child(2)>article>div>img{
+    width: 20%;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section:nth-child(3){
+    background-image: url(images/spotify-icon-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15vmin;
+    background-color: #00B172;
+    color: #FFF;
+    margin: 2vmin;
+    padding-bottom: 7vmin;
+}
+
+
+section:nth-child(3)>section:nth-child(1){
+    padding-top: 3vmin;
+    padding-left: 5vw;
+}
+
+section:nth-child(3)>section:nth-child(1)>h2{
+    font-size: 2vw;
+    text-decoration: underline;
+    padding-bottom: 3vmin;
+}
+
+section:nth-child(3)>section:nth-child(1)>div>h4{
+    width: 20vw;
+    font-weight: 100;
+}
+
+.grande{
+    position: relative;
+    float: right;
+    height: 50vmin;
+    margin-top: -40vmin;
+    margin-right: -90vw;
 }
